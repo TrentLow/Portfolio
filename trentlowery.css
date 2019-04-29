@@ -1,57 +1,56 @@
 body {
-    background-color: white;
-    border-style: solid;
-  }
-  a {
-    text-decoration: none;
-    color: black
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  #navbar {
-    font-size: 20px;
-    text-align: center;
-    top: 0;
-    background-color: black;
-    
-  }
-  nav a {
-    font-weight: bold;
-    padding: 10px 60px;
-    color: white;
-  }
-  @media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 6) 
-  and (orientation: landscape) {
+  background-color: white;
+  border-style: solid;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#navbar {
+  font-size: 20px;
+  text-align: center;
+  top: 0;
+  background-color: black;
+  padding: 6px;
+}
+nav a {
+  font-weight: bold;
+  padding: 10px 60px;
+  color: white;
+}
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 6) and (orientation: landscape) {
   #nav-bar {
     display: none;
   }
-  }
-  #content {
-    background-color: aqua;
-    padding: 20px;
-  }
-  h1 {
-    font-size: 30px;
-    text-align: center;
-    padding: 30px;
-  }
-  h2 {
-    text-align: center;
-  }
-  #about {
-    padding: 10px;
-    border-bottom: solid;
-    text-align: center;
-    margin: 100px;
-    font-size: 20px;
-  }
-  #about p {
-    text-align: left;
-  }
-  #welcome-section {
-    top: 0; 
-  }
+}
+#content {
+  background-color: aqua;
+  padding: 20px;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+h2 {
+  text-align: center;
+}
+#about {
+  padding: 10px;
+  border-bottom: solid;
+  text-align: center;
+  margin: 100px;
+  font-size: 20px;
+}
+#about p {
+  text-align: left;
+}
+#welcome-section {
+  top: 0;
+}
+img:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
