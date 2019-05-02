@@ -54,3 +54,13 @@ img:hover {
   opacity: 0.8;
   filter: alpha(opacity=50);
 }
+#col1 {
+  width: 250px;
+  float: left;
+}
+#col2outer {
+  width: 610px;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
